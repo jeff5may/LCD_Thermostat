@@ -226,6 +226,7 @@ void process_display() {
     }
     break;
   }
+  
 }
 
 void process_state(){
