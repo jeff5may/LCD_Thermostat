@@ -137,19 +137,15 @@ void process_display() {
     switch(up) {
     case 0:
       lcd.print("OFF v");
-      mode=0;
       break;
     case 1:
       lcd.print("HEAT v");
-      mode=1;
       break;
     case 2:
       lcd.print("COOL v");
-      mode=2;
       break;
     case 3:
       lcd.print("AUTO v");
-      mode=3;
       break;
     case 4:
       up=0;
